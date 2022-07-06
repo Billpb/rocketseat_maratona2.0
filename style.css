@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  html{
+    --bg-color: #edf2ff;
+    --text-color: #00082f;
+  }
+  body.pink{
+    --bg-color: #a534c4;
+    --text-color: #5682bb;
+  }
+  
+  body.dark{
+    --bg-color: #00082f;
+    --text-color: #ffffff;
+  }
+  
+  
+  body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+  }
+  .username{
+    font-family: 'Roboto Mono', monospace;
+    opacity: .8;
+    font-size: 18;
+  }
+  .container{
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+  }
+  img.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3.7px;
+    border: #4263EB solid 4px;
+  }
+  h1{
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  img{
+    width: 100%;
+  }
+  ul{
+  list-style: none;
+  margin: 48px 0;
+  }
+  
+  ul li a{
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4263EB;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    transition: backgroud 400ms;
+  }
+  ul li a:hover{
+    background: #346fc7;
+  }
+  footer {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--text-color);
+    opacity: 0.6;
+  }
